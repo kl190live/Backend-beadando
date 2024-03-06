@@ -1,0 +1,21 @@
+
+GET http://localhost:3000/books
+
+###
+
+GET http://localhost:3000/books/1
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Az új könyv címe",
+  "author": "Az új szerző neve",
+  "year": 2023
+}
+
+###
+
+DELETE http://localhost:3000/books/1
